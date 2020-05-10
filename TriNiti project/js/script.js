@@ -18,6 +18,7 @@ $(document).ready(function () {
 		slidesToShow: 1,
 		asNavFor: ".slider",
 		infinite: true,
+		lazyLoad: 'ondemand',
 	});
 	$('.main-slider-top').slick({
 		arrows: false,
@@ -45,6 +46,7 @@ $(document).ready(function () {
 		autoplaySpeed: 2000,
 		touchThreshold: 100,
 		waitForAnimate: false,
+		lazyLoad: 'ondemand',
 		responsive: [
 			{
 				breakpoint: 980,
