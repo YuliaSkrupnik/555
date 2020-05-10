@@ -32,27 +32,21 @@ p{
     font-size: 50px;
     line-height: 45px;
 }
-/*     index.html    */
 .header__top{
     display: flex;
     justify-content: space-between;
     align-items:center;
 }
 .logo{
-    display: flex;
     width: 100px;
     height: 100px;
-    background: url(../img/logo_img2.png)no-repeat center center;
-    background-size: cover;
 }
 .logo:hover{
-    display: flex;
     width: 100px;
     height: 100px;
-    background: url(../img/logo_img2.png)no-repeat center center;
-    background-size: cover;
     opacity: 0.5;
 }
+
 .name-link{
     font-family: 'Marck Script', cursive;
    font-size: 100px;
@@ -61,6 +55,7 @@ p{
 .phone{
  padding: 20px;
 }
+/*     index.html    */
 /*   выпадающее меню   */
 .menu-bar{
     background-color:rgba(89, 103, 128, 0.66);
@@ -82,8 +77,6 @@ p{
     color: white;
     font-size: 18px;
     letter-spacing: 1px;
-
-  
 }
 .active, 
 .menu-bar ul li:hover{
@@ -135,31 +128,7 @@ p{
     font-family: 'icomoon' !important;  
     color: #333333;
 }
-/*   баннер на главной  */
-
-
-
-
-.banner-inner{
-    height: 100vh;
-    max-width: 1400px;
-    background: url(../img/banner_silver.jpg) no-repeat center center;
-    background-size: cover;
-    background-position: left top;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: 'Marck Script', cursive;
-    margin: 20px 0 40px 0;
-}
-.banner-text__inner{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: 95px;
-}
+/*блок со ссылками в магазин*/
 .supply__box{
     display: flex;
     flex-wrap: wrap;
@@ -169,13 +138,10 @@ p{
     display: flex;
     flex-direction: column;
     flex-basis: 30%;
-    height: 585px;
     align-items: center;
     font-family: 'Marck Script', cursive;
 }
 .dress__box {
-    width: 450px;
-    height: 680px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -186,29 +152,9 @@ p{
     border-radius: 7px;
     margin: 5px;
 }
-.clothes1{
-    background-image: url(../img/dress.jpg) ;
-    background-size: cover;
-}
-.clothes2{
-    background-image: url(../img/pattern_2a.jpg) ;
-    background-size: cover;
-}
-.clothes3{
-    background-image: url(../img/blouses.jpg) ;
-    background-size: cover;
-}
-.clothes4{
-    background-image: url(../img/pattern_4a.jpg) ;
-    background-size: cover;
-}
-.clothes5{
-    background-image: url(../img/pattern_5a.jpg) ;
-    background-size: cover;
-}
-.clothes6{
-    background-image: url(../img/dresses.jpg) ;
-    background-size: cover;
+.clothes{
+    width: 450px;
+    height: 680px;
 }
 .title{
     width: 180px;
@@ -226,13 +172,12 @@ p{
     height: 45px;
     text-align: center;
     border: 2px solid  #333333;
-    background-color: rgba(173, 185, 204, 0.527);
+    background-color: rgba(173, 185, 204, 0.421);
     margin: 5px;
     padding: 5px;
     border-radius: 7px;
 }
-
-/*   слайдер  */
+/*   слайдер flexbox */
 .banner-slider{
     display: flex;
     justify-content:center;
@@ -247,27 +192,19 @@ p{
 .item:hover{
         flex-basis:65%;
 }
-.item-1{
-    background: url(../img/1.jpg) no-repeat center center;
-    background-size: cover;
-}
-.item-2{
-    background: url(../img/2.jpg) no-repeat center center;
-    background-size: cover;
-}
-.item-3{
-    background: url(../img/3.jpg) no-repeat center center;
-    background-size: cover;
-}
-.item-4{
-    background: url(../img/4.jpg) no-repeat center center;
-    background-size: cover;
-}
+
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
 .item-5{
-    background: url(../img/5.jpg) no-repeat center center;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
-/*//////////*/
+
+/*секция "о нас"*/
 .description__item{
     font-size: 16px;
     list-style-type: initial;
@@ -358,12 +295,12 @@ ul.footer__ul{
 }
 
  /*index_dress.html*/
- 
+ /*перевертыш*/
 .card{
     display:inline-block;
-    width: 300px;
-    height: 450px;
-    margin: 25px;
+    width: 380px;
+    height: 570px;
+    margin: 3px;
     position: relative;
     transition: all 1s linear;
     transform-style: preserve-3d;
@@ -396,55 +333,11 @@ ul.footer__ul{
     display: inline-flex;
     text-align: center;
 }
-.front.pattern1{
-    background: url(../img/pattern_2a.jpg) no-repeat center center;
-    background-size: cover;
+.pattern{
+    width: 380px;
+    height: 570px;
 }
-.back.pattern1{
-    background: url(../img/pattern_2b.jpg) no-repeat center center;
-    background-size: cover;
-}
-.front.pattern2{
-    background: url(../img/3_a.jpg) no-repeat center center;
-    background-size: cover;
-}
-.back.pattern2{
-    background: url(../img/3_b.jpg) no-repeat center center;
-    background-size: cover;
-}
-.front.pattern3{
-    background: url(../img/pattern_2a.jpg) no-repeat center center;
-    background-size: cover;
-}
-.back.pattern3{
-    background: url(../img/pattern_2b.jpg) no-repeat center center;
-    background-size: cover;
-}
-.front.pattern4{
-    background: url(../img/pattern_2a.jpg) no-repeat center center;
-    background-size: cover;
-}
-.back.pattern4{
-    background: url(../img/pattern_2b.jpg) no-repeat center center;
-    background-size: cover;
-}
-.front.pattern5{
-    background: url(../img/pattern_2a.jpg) no-repeat center center;
-    background-size: cover;
-}
-.back.pattern5{
-    background: url(../img/pattern_2b.jpg) no-repeat center center;
-    background-size: cover;
-}
-.front.pattern6{
-    background: url(../img/pattern_2a.jpg) no-repeat center center;
-    background-size: cover;
-}
-.back.pattern6{
-    background: url(../img/pattern_2b.jpg) no-repeat center center;
-    background-size: cover;
-}
-/*      */  
+/* нижняя часть странички */  
 .cover-container{
     display: flex;
     flex-wrap: wrap;
@@ -456,7 +349,7 @@ ul.footer__ul{
     flex-direction: column;
     align-items: center;
     background-color: whitesmoke;
-    margin: 3px;
+    margin: 5px;
     border: 2px solid #ebc8aa;
     border-radius: 10px;
 }
@@ -468,7 +361,6 @@ ul.footer__ul{
    overflow: hidden ;
    text-align: center;
 }
-
 .price{
     font-size: 28px;
     color: tomato;
@@ -479,20 +371,12 @@ ul.footer__ul{
 .arrow__page{
     display: flex;
     justify-content: center;
-   align-items: stretch;
+    align-items: stretch;
 }
 .pege__count{
     font-size: 25px;
     margin: 15px;
-}/*
-.left:before{
-    content: "\f104";
-    font-family: 'icomoon' !important;
-}
-.right:before{
-    content: "\f105";
-    font-family: 'icomoon' !important;
-}*/
+} 
 .arrow{
     font-size: 30px;
     margin: 10px;
@@ -540,19 +424,7 @@ li{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/*           slider           */
-
-
+/*           slider slick          */
 .slidercover__card{
     display: flex;
 }
@@ -564,12 +436,11 @@ li{
 .sliderbig__item img{
     width: 500px;
     margin: 0 auto;
-
 }
 .slider__item,
-.sliderbig__item{
+.sliderbig__item,
+.main-slider__item{
     outline: none;
-    cursor: pointer;
     position: relative;
 }
 
@@ -588,8 +459,6 @@ li{
     padding: 0px 50px;
 }
 
-
-
 .slider .slick-dots{
     display: flex;
     align-items: center;
@@ -600,7 +469,6 @@ li{
     margin: 0px 10px;
 }
 
-
 .sliderbig{
     position: relative;
     padding: 15px 30px;
@@ -608,7 +476,7 @@ li{
 .sliderbig .slick-arrow{
     top: 50%;
     margin: 0 0 0 0 ;
-    z-index: 1000;
+    z-index: 10;
     font-size: 0;
     width: 30px;
     height: 30px;
@@ -629,12 +497,30 @@ li{
     font-size: 50px;
     right: 115px;
 }
+/*       main-slider-top       */
 
-
-
+.main-slider__item img{
+    text-align: center;
+    margin: 0 auto;
+}
+.main-slider-top {
+    position: relative;
+    padding: 15px 30px;
+}
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+.main-slider-top .slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+.main-slider-top .slick-dots li{
+    list-style: none;
+    margin: 0px 20px;
+}
 
 /*            Слайдер на главной sliderslick              */
-
 
 
 .sliderslick__item img{
@@ -742,7 +628,7 @@ li{
     border:  solid 2px;
     border-color: transparent;
     border-radius: 14%;
-    box-shadow: 3px 3px 3px  #333333a2;
+    box-shadow: 5px 3px 3px  #333333a2;
     margin: 5px 15px;
     text-shadow:0.5px 0.5px 1px#333333;
     text-align: center;
@@ -857,22 +743,3 @@ background-color: rgba(255, 192, 203, 0.558);
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

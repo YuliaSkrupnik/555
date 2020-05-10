@@ -11,15 +11,27 @@ $(document).ready(function () {
 		infinite: true,
 		waitForAnimate: false,
 		asNavFor: ".sliderbig",
-		focusOnSelect: true
+		focusOnSelect: true,
 	});
 	$('.sliderbig').slick({
 		fade: true,
 		slidesToShow: 1,
 		asNavFor: ".slider",
 		infinite: true,
+	});
+	$('.main-slider-top').slick({
+		arrows: false,
+		dots: true,
+		infinite: true,
+		speed: 600,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		easing: 'leinear',
+		lazyLoad: 'ondemand',
+		adaptiveHeight: true,
+	});
 
-	})
+
 	$('.sliderslick').slick({
 		arrows: true,
 		dots: false,
