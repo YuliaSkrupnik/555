@@ -14,60 +14,107 @@
 	<link rel="stylesheet" type="text/css" href="/css/slick.css" />
 	<link rel="stylesheet" type="text/css" href="/css/slick-theme.css" />
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
-
-	<header id="header">
-		<div class="wrapper">
-			<div class="header__top">
-				<a href="index.html"><img src="./img/logo_img2.png" class="logo"></a>
-				<div class="name-link">TriNiti</div>
-				<div><a class="header__phone phone" href="tel:380972693260">+38 (097) 269 32 60</a></div>
+	<!-- мобильное меню -->
+	<div class="wrapper">
+		<header class="header">
+			<div class="conteiner">
+				<div class="header__body">
+					<a href="index.html" class="header__logo">
+						<img src="img/logo_img2.png" alt="logo">
+						<span class="name__logo">TriNiti</span>
+					</a>
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<nav class="header__menu">
+						<ul class="header__list">
+							<li><a href="index.html" class="header__link link">Главная</a></li>
+							<li class="header__link item-link">Женщины</li>
+							<ul class="sub-header__menu">
+								<li><a href="index_dress2.html" class="header__link-second link">Платье</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Брюки</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Блузки</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Юбки</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Sale</a></li>
+							</ul>
+							<li class="header__link item-link">Дети</li>
+							<ul class="sub-header__menu">
+								<li><a href="index_dress2.html" class="header__link-second link">Платье</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Брюки</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Блузки</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Юбки</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Sale</a></li>
+							</ul>
+							<li><a href="index.html#headline" class="header__link link">О нас</a></li>
+							<li><a href="index_tab.html" class="header__link link">Помощь</a></li>
+							<ul class="sub-header__menu">
+								<li><a href="index_tab.html" class="header__link-second link">Таблица размеров</a></li>
+								<li><a href="index_tab.html#payment" class="header__link-second link">Оплата и
+										доставка</a></li>
+								<li><a href="index_tab.html#delivery" class="header__link-second link">Как сделать
+										заказ</a></li>
+								<li><a href="index_tab.html" class="header__link-second link">Возврат</a></li>
+							</ul>
+							<li><a href="#" class="header__link link">Контакты</a></li>
+						</ul>
+					</nav>
+					<a href="#" class="basket"></a>
+				</div>
 			</div>
+		</header>
+	</div>
+	<!--меню десктоп-->
+	<div class="menu-bar">
+		<div class="menu-bar2">
+			<a href="index.html" class="header__logo">
+				<img src="img/logo_img2.png" alt="logo">
+				<span class="name__logo">TriNiti</span>
+			</a>
 		</div>
-		<div class="menu-bar">
-			<ul>
-				<li class="active"><a href="index.html">Главная</a></li>
-				<li><a href="#">Женщины</a>
-					<div class="sub-menu-1">
-						<ul>
-							<li><a href="index_dress.html">Платья</a></li>
-							<li><a href="#">Брюки</a></li>
-							<li><a href="#">Блузки</a></li>
-							<li><a href="#">Юбки</a></li>
-							<li><a href="#">Sale</a></li>
-						</ul>
-					</div>
-				</li>
-				<li><a href="#">Дети</a>
-					<div class="sub-menu-1">
-						<ul>
-							<li><a href="#">Платья</a></li>
-							<li><a href="#">Брюки</a></li>
-							<li><a href="#">Блузки</a></li>
-							<li><a href="#">Юбки</a></li>
-							<li><a href="#">Sale</a></li>
-						</ul>
-					</div>
-				</li>
-				<li><a href="index.html#headline">О нас</a></li>
-				<li><a href="#">Помощь</a>
-					<div class="sub-menu-1">
-						<ul>
-							<li><a href="index_tab.html">Таблица размеров</a></li>
-							<li><a href="#">Как сделать заказ</a></li>
-							<li><a href="#delivery">Оплата и доставка</a></li>
-							<li><a href="#">Возврат</a></li>
-						</ul>
-					</div>
-				</li>
-				<li><a href="#">Контакты</a></li>
-				<li><a href="#" class="basket"></a></li>
-			</ul>
-		</div>
-	</header>
-
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="#">Женщины</a>
+				<div class="sub-menu-1">
+					<ul>
+						<li><a href="index_dress2.html">Платья</a></li>
+						<li><a href="index_dress2.html">Брюки</a></li>
+						<li><a href="index_dress2.html">Блузки</a></li>
+						<li><a href="index_dress2.html">Юбки</a></li>
+						<li><a href="index_dress2.html">Sale</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#">Дети</a>
+				<div class="sub-menu-1">
+					<ul>
+						<li><a href="index_dress2.htm">Платья</a></li>
+						<li><a href="index_dress2.htm">Брюки</a></li>
+						<li><a href="index_dress2.htm">Блузки</a></li>
+						<li><a href="index_dress2.htm">Юбки</a></li>
+						<li><a href="index_dress2.htm">Sale</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="index.html#headline">О нас</a></li>
+			<li><a href="index_tab.html">Помощь</a>
+				<div class="sub-menu-1">
+					<ul>
+						<li><a href="index_tab.html">Таблица размеров</a></li>
+						<li><a href="index_tab.html#delivery">Как сделать заказ</a></li>
+						<li><a href="index_tab.html#payment">Оплата и доставка</a></li>
+						<li><a href="index_tab.html">Возврат</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+		<a href="#" class="basket"></a>
+	</div>
+	<!--основной контент-->
 	<section id="table__size">
 		<div class="wrapper">
 			<table class="size">
@@ -82,7 +129,16 @@
 					<th>44</th>
 				</tr>
 				<tr>
-					<th>Международный </th>
+					<th>В Украине</th>
+					<th>40-42</th>
+					<th>42</th>
+					<th>44</th>
+					<th>46</th>
+					<th>48</th>
+					<th>50</th>
+				</tr>
+				<tr>
+					<th>Международный</th>
 					<th>XS</th>
 					<th>S</th>
 					<th>M</th>
@@ -121,25 +177,19 @@
 			</table>
 		</div>
 	</section>
-
-
-
-
+	<!--информация о доставке,оформлении заказа и оплате-->
 	<section class="description">
 		<div class="wrapper">
-			<hr>
 			<h3 id="delivery">ИНФОРМАЦИЯ О ДОСТАВКЕ</h3>
 
 			<h4>Оформление заказа:</h4>
-
-
 			<ul>
 				<li class="description__title">В рабочее время наиболее удобным способом сделать
 					заказ является звонок по контактным номерам телефонов:</li>
 				<ul>
-					<li><a class="footer__phone  phone" href="tel:380972693260">+38 (097) 269 32 60</a>(Kievstar)</li>
+					<li><a class="phone" href="tel:380972693260">+38 (097) 269 32 60</a>(Kievstar)</li>
 
-					<li><a class="footer__phone  phone" href="tel:000000000000">+38 (000) 000 00 00</a>(МТС)</li>
+					<li><a class="phone" href="tel:000000000000">+38 (000) 000 00 00</a>(МТС)</li>
 				</ul>
 				<li class="description__title">В этом случае Вам также будет предоставлена бесплатная консультация. Наши
 					менеджеры ответят на все
@@ -192,14 +242,9 @@
 			</ul>
 		</div>
 	</section>
-
-
-
-
-
+	<!--футер-->
 	<footer id="footer">
 		<div class="wrapper">
-			<hr>
 			<div class="footer__conteiner">
 				<div class="footer__navigation">
 					<div class="footer__title">Коталог

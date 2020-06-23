@@ -14,237 +14,282 @@
 	<link rel="stylesheet" type="text/css" href="/css/slick.css" />
 	<link rel="stylesheet" type="text/css" href="/css/slick-theme.css" />
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
-	<header id="header">
+	<!-- мобильное меню -->
+	<div class="wrapper">
+		<header class="header">
+			<div class="conteiner">
+				<div class="header__body">
+					<a href="index.html" class="header__logo">
+						<img src="img/logo_img2.png" alt="logo">
+						<span class="name__logo">TriNiti</span>
+					</a>
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<nav class="header__menu">
+						<ul class="header__list">
+							<li><a href="index.html" class="header__link link">Главная</a></li>
+							<li class="header__link item-link">Женщины</li>
+							<ul class="sub-header__menu">
+								<li><a href="index_dress2.html" class="header__link-second link">Платье</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Брюки</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Блузки</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Юбки</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Sale</a></li>
+							</ul>
+							<li class="header__link item-link">Дети</li>
+							<ul class="sub-header__menu">
+								<li><a href="index_dress2.html" class="header__link-second link">Платье</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Брюки</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Блузки</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Юбки</a></li>
+								<li><a href="index_dress2.html" class="header__link-second link">Sale</a></li>
+							</ul>
+							<li><a href="index.html#headline" class="header__link link">О нас</a></li>
+							<li><a href="index_tab.html" class="header__link link">Помощь</a></li>
+							<ul class="sub-header__menu">
+								<li><a href="index_tab.html" class="header__link-second link">Таблица размеров</a></li>
+								<li><a href="index_tab.html#payment" class="header__link-second link">Оплата и
+										доставка</a></li>
+								<li><a href="index_tab.html#delivery" class="header__link-second link">Как сделать
+										заказ</a></li>
+								<li><a href="index_tab.html" class="header__link-second link">Возврат</a></li>
+							</ul>
+							<li><a href="#" class="header__link link">Контакты</a></li>
+						</ul>
+					</nav>
+					<a href="#" class="basket"></a>
+				</div>
+			</div>
+		</header>
+	</div>
+	<!--меню десктоп-->
+	<div class="menu-bar">
+		<div class="menu-bar2">
+			<a href="index.html" class="header__logo">
+				<img src="img/logo_img2.png" alt="logo">
+				<span class="name__logo">TriNiti</span>
+			</a>
+		</div>
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="#">Женщины</a>
+				<div class="sub-menu-1">
+					<ul>
+						<li><a href="index_dress2.html">Платья</a></li>
+						<li><a href="index_dress2.html">Брюки</a></li>
+						<li><a href="index_dress2.html">Блузки</a></li>
+						<li><a href="index_dress2.html">Юбки</a></li>
+						<li><a href="index_dress2.html">Sale</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#">Дети</a>
+				<div class="sub-menu-1">
+					<ul>
+						<li><a href="index_dress2.htm">Платья</a></li>
+						<li><a href="index_dress2.htm">Брюки</a></li>
+						<li><a href="index_dress2.htm">Блузки</a></li>
+						<li><a href="index_dress2.htm">Юбки</a></li>
+						<li><a href="index_dress2.htm">Sale</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="index.html#headline">О нас</a></li>
+			<li><a href="index_tab.html">Помощь</a>
+				<div class="sub-menu-1">
+					<ul>
+						<li><a href="index_tab.html">Таблица размеров</a></li>
+						<li><a href="index_tab.html#delivery">Как сделать заказ</a></li>
+						<li><a href="index_tab.html#payment">Оплата и доставка</a></li>
+						<li><a href="index_tab.html">Возврат</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+		<a href="#" class="basket"></a>
+	</div>
+	<!--магазин-->
+	<section class="show">
 		<div class="wrapper">
-			<div class="header__top">
-				<a href="index.html"><img src="./img/logo_img2.png" class="logo"></a>
-				<div class="name-link">TriNiti</div>
-				<div><a class="header__phone phone" href="tel:380972693260">+38 (097) 269 32 60</a></div>
+			<div class="showcase">
+				<div class="showcase-container">
+					<a href="index_card.html" class="showcase-img">
+						<img src="./img/pattern_2a.jpg" alt="img"></a>
+					<div class="showcase-info">
+						<a href="#" class="name">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a>
+						<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
+					</div>
+				</div>
+				<div class="showcase-container">
+					<a href="#" class="showcase-img">
+						<img src="./img/pattern_3a.jpg" alt="img"></a>
+					<div class="showcase-info">
+						<a href="index_card.html" class="name">Lorem, ipsum dolor.</a>
+						<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
+					</div>
+				</div>
+				<div class="showcase-container">
+					<a href="#" class="showcase-img">
+						<img src="./img/pattern_4a.jpg" alt="img"></a>
+					<div class="showcase-info">
+						<a href="#" class="name">Lorem, ipsum dolor.</a>
+						<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
+					</div>
+				</div>
+				<div class="showcase-container">
+					<a href="#" class="showcase-img">
+						<img src="./img/pattern_5a.jpg" alt="img"></a>
+					<div class="showcase-info">
+						<a href="#" class="name">Lorem, ipsum dolor.</a>
+						<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
+					</div>
+				</div>
+				<div class="showcase-container">
+					<a href="#" class="showcase-img">
+						<img src="./img/pattern_6a.jpg" alt="img"></a>
+					<div class="showcase-info">
+						<a href="#" class="name">Lorem, ipsum dolor.</a>
+						<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
+					</div>
+				</div>
+				<div class="showcase-container">
+					<a href="#" class="showcase-img">
+						<img src="./img/pattern_2a.jpg" alt="img"></a>
+					<div class="showcase-info">
+						<a href="#" class="name">Lorem, ipsum dolor.</a>
+						<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
+					</div>
+				</div>
+				<div class="showcase-container">
+					<a href="#" class="showcase-img">
+						<img src="./img/pattern_2a.jpg" alt="img"></a>
+					<div class="showcase-info">
+						<a href="#" class="name">Lorem, ipsum dolor.</a>
+						<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
+					</div>
+				</div>
+				<div class="showcase-container">
+					<a href="#" class="showcase-img">
+						<img src="./img/pattern_2a.jpg" alt="img"></a>
+					<div class="showcase-info">
+						<a href="#" class="name">Lorem, ipsum dolor.</a>
+						<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
+					</div>
+				</div>
+				<div class="showcase-container">
+					<a href="#" class="showcase-img">
+						<img src="./img/pattern_2a.jpg" alt="img"></a>
+					<div class="showcase-info">
+						<a href="#" class="name">Lorem, ipsum dolor.</a>
+						<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
+					</div>
+				</div>
+				<div class="showcase-container">
+					<a href="#" class="showcase-img">
+						<img src="./img/pattern_2a.jpg" alt="img"></a>
+					<div class="showcase-info">
+						<a href="#" class="name">Lorem, ipsum dolor.</a>
+						<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
+					</div>
+				</div>
+				<div class="showcase-container">
+					<a href="#" class="showcase-img">
+						<img src="./img/pattern_2a.jpg" alt="img"></a>
+					<div class="showcase-info">
+						<a href="#" class="name">Lorem, ipsum dolor.</a>
+						<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
+					</div>
+				</div>
+				<div class="showcase-container">
+					<a href="#" class="showcase-img">
+						<img src="./img/pattern_2a.jpg" alt="img"></a>
+					<div class="showcase-info">
+						<a href="#" class="name">Lorem, ipsum dolor.</a>
+						<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
+					</div>
+				</div>
+
 			</div>
 		</div>
-		<div class="menu-bar">
-			<ul>
-				<li><a href="index.html">Главная
-					</a></li>
-				<li><a href="#">Женщины</a>
-					<div class="sub-menu-1">
-						<ul>
-							<li><a href="index_dress2.html">Платья</a></li>
-							<li><a href="#">Брюки</a></li>
-							<li><a href="#">Блузки</a></li>
-							<li><a href="#">Юбки</a></li>
-							<li><a href="#">Sale</a></li>
-						</ul>
-					</div>
-				</li>
-				<li><a href="#">Дети</a>
-					<div class="sub-menu-1">
-						<ul>
-							<li><a href="#">Платья</a></li>
-							<li><a href="#">Брюки</a></li>
-							<li><a href="#">Блузки</a></li>
-							<li><a href="#">Юбки</a></li>
-							<li><a href="#">Sale</a></li>
-						</ul>
-					</div>
-				</li>
-				<li><a href="index.html#headline">О нас</a></li>
-				<li><a href="index_tab.html">Помощь</a>
-					<div class="sub-menu-1">
-						<ul>
-							<li><a href="index_tab.html">Таблица размеров</a></li>
-							<li><a href="index_tab.html">Как сделать заказ</a></li>
-							<li><a href="index_tab.html#payment">Оплата и доставка</a></li>
-							<li><a href="index_tab.html">Возврат</a></li>
-						</ul>
-					</div>
-				</li>
-				<li><a href="#">Контакты</a></li>
-				<li><a href="#" class="basket"></a></li>
-			</ul>
+	</section>
+
+	<!--странички магазина-->
+	<section class="page">
+		<div class="wrapper">
+			<div class="arrow__page">
+				<a href="#" class="arrow left"></a>
+				<a href="#" class="pege__count">1</a>
+				<a href="#" class="pege__count">2</a>
+				<a href="#" class="pege__count">3</a>
+				<a href="#" class="pege__count">...</a>
+				<a href="#" class="arrow right"></a>
+			</div>
 		</div>
-	</header>
-
-	<body>
-		<section class="show">
-			<div class="wrapper">
-				<div class="showcase">
-					<div class="showcase-container">
-						<a href="index_card.html" class="showcase-img">
-							<img src="./img/pattern_2a.jpg" alt="img"></a>
-						<div class="showcase-info">
-							<a href="#" class="name">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a>
-							<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
-						</div>
+	</section>
+<!--footer-->
+	<footer id="footer">
+		<div class="wrapper">
+			<div class="footer__conteiner">
+				<div class="footer__navigation">
+					<div class="footer__title">Коталог
 					</div>
-					<div class="showcase-container">
-						<a href="#" class="showcase-img">
-							<img src="./img/pattern_3a.jpg" alt="img"></a>
-						<div class="showcase-info">
-							<a href="index_card.html" class="name">Lorem, ipsum dolor.</a>
-							<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
-						</div>
-					</div>
-					<div class="showcase-container">
-						<a href="#" class="showcase-img">
-							<img src="./img/pattern_4a.jpg" alt="img"></a>
-						<div class="showcase-info">
-							<a href="#" class="name">Lorem, ipsum dolor.</a>
-							<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
-						</div>
-					</div>
-					<div class="showcase-container">
-						<a href="#" class="showcase-img">
-							<img src="./img/pattern_5a.jpg" alt="img"></a>
-						<div class="showcase-info">
-							<a href="#" class="name">Lorem, ipsum dolor.</a>
-							<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
-						</div>
-					</div>
-					<div class="showcase-container">
-						<a href="#" class="showcase-img">
-							<img src="./img/pattern_6a.jpg" alt="img"></a>
-						<div class="showcase-info">
-							<a href="#" class="name">Lorem, ipsum dolor.</a>
-							<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
-						</div>
-					</div>
-					<div class="showcase-container">
-						<a href="#" class="showcase-img">
-							<img src="./img/pattern_2a.jpg" alt="img"></a>
-						<div class="showcase-info">
-							<a href="#" class="name">Lorem, ipsum dolor.</a>
-							<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
-						</div>
-					</div>
-					<div class="showcase-container">
-						<a href="#" class="showcase-img">
-							<img src="./img/pattern_2a.jpg" alt="img"></a>
-						<div class="showcase-info">
-							<a href="#" class="name">Lorem, ipsum dolor.</a>
-							<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
-						</div>
-					</div>
-					<div class="showcase-container">
-						<a href="#" class="showcase-img">
-							<img src="./img/pattern_2a.jpg" alt="img"></a>
-						<div class="showcase-info">
-							<a href="#" class="name">Lorem, ipsum dolor.</a>
-							<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
-						</div>
-					</div>
-					<div class="showcase-container">
-						<a href="#" class="showcase-img">
-							<img src="./img/pattern_2a.jpg" alt="img"></a>
-						<div class="showcase-info">
-							<a href="#" class="name">Lorem, ipsum dolor.</a>
-							<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
-						</div>
-					</div>
-					<div class="showcase-container">
-						<a href="#" class="showcase-img">
-							<img src="./img/pattern_2a.jpg" alt="img"></a>
-						<div class="showcase-info">
-							<a href="#" class="name">Lorem, ipsum dolor.</a>
-							<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
-						</div>
-					</div>
-					<div class="showcase-container">
-						<a href="#" class="showcase-img">
-							<img src="./img/pattern_2a.jpg" alt="img"></a>
-						<div class="showcase-info">
-							<a href="#" class="name">Lorem, ipsum dolor.</a>
-							<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
-						</div>
-					</div>
-					<div class="showcase-container">
-						<a href="#" class="showcase-img">
-							<img src="./img/pattern_2a.jpg" alt="img"></a>
-						<div class="showcase-info">
-							<a href="#" class="name">Lorem, ipsum dolor.</a>
-							<a href="#" class="price">999.99 <span class="currency2">грн.</span></a>
-						</div>
-					</div>
-
+					<nav class="footer__nav">
+						<ul class="footer__ul">
+							<li class="footer__item"><a href="index_dress2.html" class="footer__link">Платья</a>
+							</li>
+							<li class="footer__item"><a href="#" class="footer__link">Блузки</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Юбки</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Брюки</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Детям</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Sale</a></li>
+						</ul>
+					</nav>
 				</div>
-			</div>
-		</section>
 
-
-		<section class="page">
-			<div class="wrapper">
-				<div class="arrow__page">
-					<a href="#" class="arrow left"></a>
-					<a href="#" class="pege__count">1</a>
-					<a href="#" class="pege__count">2</a>
-					<a href="#" class="pege__count">3</a>
-					<a href="#" class="pege__count">...</a>
-					<a href="#" class="arrow right"></a>
+				<div class="footer__navigation">
+					<div class="footer__title">Информация
+					</div>
+					<nav class="footer__nav">
+						<ul class="footer__ul">
+							<li class="footer__item"><a href="index.html#headline" class="footer__link">О
+									нас</a>
+							</li>
+							<li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
+							<li class="footer__item"><a href="index_tab.html#payment" class="footer__link">Оплата</a>
+							</li>
+							<li class="footer__item"><a href="index_tab.html#delivery" class="footer__link">Доставка</a>
+							</li>
+							<li class="footer__item"><a href="index_tab.html" class="footer__link">Таблица
+									размеров</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
-			</div>
-		</section>
 
-
-		<footer id="footer">
-			<div class="wrapper">
-				<hr>
-				<div class="footer__conteiner">
-					<div class="footer__navigation">
-						<div class="footer__title">Коталог
+				<div class="footer__social">
+					<div class="footer__contacts">
+						<div><a class="footer__phone  phone" href="tel:380972693260">+38 (097) 269 32 60</a>
 						</div>
-						<nav class="footer__nav">
-							<ul class="footer__ul">
-								<li class="footer__item"><a href="index_dress2.html" class="footer__link">Платья</a></li>
-								<li class="footer__item"><a href="#" class="footer__link">Блузки</a></li>
-								<li class="footer__item"><a href="#" class="footer__link">Юбки</a></li>
-								<li class="footer__item"><a href="#" class="footer__link">Брюки</a></li>
-								<li class="footer__item"><a href="#" class="footer__link">Детям</a></li>
-								<li class="footer__item"><a href="#" class="footer__link">Sale</a></li>
-							</ul>
-						</nav>
-					</div>
-
-					<div class="footer__navigation">
-						<div class="footer__title">Информация
-						</div>
-						<nav class="footer__nav">
-							<ul class="footer__ul">
-								<li class="footer__item"><a href="index.html#headline" class="footer__link">О нас</a>
-								</li>
-								<li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
-								<li class="footer__item"><a href="index_tab.html#payment"
-										class="footer__link">Оплата</a>
-								</li>
-								<li class="footer__item"><a href="index_tab.html#delivery"
-										class="footer__link">Доставка</a>
-								</li>
-								<li class="footer__item"><a href="index_tab.html" class="footer__link">Таблица
-										размеров</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-
-					<div class="footer__social">
-						<div class="footer__contacts">
-							<div><a class="footer__phone  phone" href="tel:380972693260">+38 (097) 269 32 60</a>
-							</div>
-							<div class="footer__social-row">
-								<a href="#" class="facebook social"></a>
-								<a href="#" class="instagram social"></a>
-								<a href="#" class="pinterest social"></a>
-							</div>
+						<div class="footer__social-row">
+							<a href="#" class="facebook social"></a>
+							<a href="#" class="instagram social"></a>
+							<a href="#" class="pinterest social"></a>
 						</div>
 					</div>
 				</div>
 			</div>
-		</footer>
-		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-		<script src="js/slick/slick.min.js"></script>
-		<script src="js/script.js"></script>
-	</body>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/slick/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
 
 </html>
